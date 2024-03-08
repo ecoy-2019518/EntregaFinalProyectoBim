@@ -64,6 +64,9 @@ export const deleteC = async (req, res) => {
         let { id } = req.params
         let deletedCategory = await Category.findOneAndDelete({ _id: id })
         if (!deletedCategory) return res.status(404).send({ message: 'Category not found and not deleted' })
+        const defaultCategory = await Category.findOne({ name: 'default category' })
+        if (!defaultCategory) return res.status(404).send({ message: 'Default category not found' })
+        await Product.updateMany({ category: id }, { $set: { category: defaultCategory._id } })
         return res.send({ message: `Category ${deletedCategory.name} deleted successfully` })
     } catch (err) {
         console.error(err)

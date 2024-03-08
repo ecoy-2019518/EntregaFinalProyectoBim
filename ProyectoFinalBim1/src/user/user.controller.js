@@ -188,7 +188,7 @@ export const editPassword = async (req, res) => {
         let {oldPassword, newPassword } = req.body
         let { id } = req.params
         let uid = req.user._id
-        if (id != uid) return res.status(401).send({ message: 'You can only update your own account' });
+        if (id != uid) return res.status(401).send({ message: 'You can only update your own account' })
         let user = await User.findOne({_id: id})
         if(!user) return res.status(404).send({message: 'User not found'})
         let rightOldPassword = await checkPassword(oldPassword, user.password)

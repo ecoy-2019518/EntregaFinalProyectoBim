@@ -4,18 +4,17 @@ const shoppingCartSchema= Schema({
     user:{
         type: Schema.Types.ObjectId,
         ref: 'user',
-        require: [true, "user is require"]
+        require: true
     },
     products:[{
         product:{
             type: Schema.Types.ObjectId,
             ref: 'product',
-            require: [true, "product is require"]
+            require: true
         },
         amount:{
             type: Number,
-            default: 1,
-            require: [true, "amount is require"]
+            require: true    
         }
     }],
     total:{
