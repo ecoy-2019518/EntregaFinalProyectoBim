@@ -1,73 +1,84 @@
 {
     "client": "Thunder Client",
     "collectionName": "ProyectoBim2019518",
-    "dateExported": "2024-03-08T17:40:53.975Z",
+    "dateExported": "2024-03-09T04:26:17.460Z",
     "version": "1.1",
     "folders": [
         {
-            "_id": "a3686a6b-c244-4e62-a5a5-dc7289a56545",
+            "_id": "6aa0265f-ddf8-4434-b354-c0162f6bfd71",
             "name": "Category",
             "containerId": "",
-            "created": "2024-03-08T13:34:31.628Z",
+            "created": "2024-03-07T22:41:35.828Z",
             "sortNum": 10000
         },
         {
-            "_id": "12d355e9-101f-47de-a1f2-2f18616797ab",
+            "_id": "9e01bc06-699f-4f20-b039-2ec26728d37e",
             "name": "Product",
             "containerId": "",
-            "created": "2024-03-08T13:34:31.629Z",
+            "created": "2024-03-07T22:41:35.829Z",
             "sortNum": 30000
         },
         {
-            "_id": "70003d45-c6af-4914-8762-0be9b125251f",
+            "_id": "40cedb9a-7f49-44be-87d1-ca1648951503",
             "name": "User",
             "containerId": "",
-            "created": "2024-03-08T13:34:31.630Z",
+            "created": "2024-03-07T22:41:35.830Z",
             "sortNum": 40000,
             "settings": {
                 "headers": [
                     {
                         "name": "token",
-                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNDU2ZjAyYjY3YzJmZWU4YjlhMTYiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJpYXQiOjE3MDk4NTQ4MzYsImV4cCI6MTcwOTg2NTYzNn0.QsD3IeI0U32eMBLAHBgWhouDDxkQA5LHwGIrwsSUOg0"
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNDU2ZjAyYjY3YzJmZWU4YjlhMTYiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJpYXQiOjE3MDk4NTQ4MzYsImV4cCI6MTcwOTg2NTYzNn0.QsD3IeI0U32eMBLAHBgWhouDDxkQA5LHwGIrwsSUOg0",
+                        "isDisabled": true
                     }
                 ]
             }
+        },
+        {
+            "_id": "01c1d305-55ca-42f6-b801-87ee38516adf",
+            "name": "Cart",
+            "containerId": "",
+            "created": "2024-03-09T02:27:48.818Z",
+            "sortNum": 50000
         }
     ],
     "requests": [
         {
-            "_id": "595f2c9b-0433-4aa3-9a56-b1dee9dd777b",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "a3686a6b-c244-4e62-a5a5-dc7289a56545",
+            "_id": "307c4078-cdf9-4157-952e-fdf0e6447f6c",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "6aa0265f-ddf8-4434-b354-c0162f6bfd71",
             "name": "CategoryTest",
             "url": "category/test",
             "method": "GET",
             "sortNum": 10000,
-            "created": "2024-03-08T13:34:31.628Z",
-            "modified": "2024-03-08T13:34:31.628Z",
+            "created": "2024-03-07T22:41:35.828Z",
+            "modified": "2024-03-09T00:31:23.881Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE",
+                    "isDisabled": true
                 }
             ],
             "params": [],
+            "reqType": "get",
             "tests": []
         },
         {
-            "_id": "a6836c9a-1730-4d37-8d13-f51145501993",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "a3686a6b-c244-4e62-a5a5-dc7289a56545",
+            "_id": "720125c9-a791-4779-aa10-c7e69e1748bc",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "6aa0265f-ddf8-4434-b354-c0162f6bfd71",
             "name": "CategoryAdd",
             "url": "category/add",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-03-08T13:34:31.629Z",
-            "modified": "2024-03-08T16:43:17.356Z",
+            "created": "2024-03-07T22:41:35.830Z",
+            "modified": "2024-03-09T00:50:30.886Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Q3N2Y2MGRkYTc3ODNlYzYyOTAiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTkxNjE4OCwiZXhwIjoxNzA5OTI2OTg4fQ.ygWLoSImeFT1ik44fXKKuaYq_bHsXrHBFXJUPJAs69k"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViYTRjNTY3NWNiMGU2ZjkzYWIxMGEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTk0MzY3MCwiZXhwIjoxNzA5OTU0NDcwfQ.yQUoJNZ9Zpkki7y6AB6XD5p39IfMuwzGMLPHOhKn7bA",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -89,19 +100,20 @@
             "tests": []
         },
         {
-            "_id": "36fd3684-4c70-4b06-8c5c-fee43223d551",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "a3686a6b-c244-4e62-a5a5-dc7289a56545",
+            "_id": "10671973-5458-4ef9-b763-7567a3d0c8d8",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "6aa0265f-ddf8-4434-b354-c0162f6bfd71",
             "name": "CategoryUpdate",
-            "url": "category/update/65eadf5c5674c46ac0fe6230",
+            "url": "category/update/65ebad89f4e04357e4a7f815",
             "method": "PUT",
             "sortNum": 30000,
-            "created": "2024-03-08T13:34:31.630Z",
-            "modified": "2024-03-08T13:34:31.630Z",
+            "created": "2024-03-07T22:41:35.831Z",
+            "modified": "2024-03-09T01:09:42.768Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -111,7 +123,7 @@
                 "form": [
                     {
                         "name": "name",
-                        "value": "Peluches"
+                        "value": "Tecnologia"
                     },
                     {
                         "name": "description",
@@ -119,22 +131,24 @@
                     }
                 ]
             },
+            "reqType": "put",
             "tests": []
         },
         {
-            "_id": "8e2dc05a-d5e6-4f5d-b37d-7e254b9778cd",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "a3686a6b-c244-4e62-a5a5-dc7289a56545",
+            "_id": "f62efb07-aad4-4a73-b1bf-2ec2df3001d9",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "6aa0265f-ddf8-4434-b354-c0162f6bfd71",
             "name": "CategoryDelete",
-            "url": "category/delete/65eb4025c33eea3a720ba28d",
+            "url": "category/delete/65ebad89f4e04357e4a7f815",
             "method": "DELETE",
             "sortNum": 40000,
-            "created": "2024-03-08T13:34:31.631Z",
-            "modified": "2024-03-08T16:44:32.209Z",
+            "created": "2024-03-07T22:41:35.832Z",
+            "modified": "2024-03-09T01:12:31.228Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Q3N2Y2MGRkYTc3ODNlYzYyOTAiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTkxNjE4OCwiZXhwIjoxNzA5OTI2OTg4fQ.ygWLoSImeFT1ik44fXKKuaYq_bHsXrHBFXJUPJAs69k"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -142,19 +156,20 @@
             "tests": []
         },
         {
-            "_id": "307a116b-ed9d-47c1-9157-5938f435cc94",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "a3686a6b-c244-4e62-a5a5-dc7289a56545",
+            "_id": "74d55db0-e9a7-4ff8-aa34-78a2520bfb74",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "6aa0265f-ddf8-4434-b354-c0162f6bfd71",
             "name": "CategoryList",
             "url": "category/list",
             "method": "GET",
             "sortNum": 50000,
-            "created": "2024-03-08T13:34:31.632Z",
-            "modified": "2024-03-08T16:50:25.670Z",
+            "created": "2024-03-07T22:41:35.833Z",
+            "modified": "2024-03-09T01:08:52.046Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Q3N2Y2MGRkYTc3ODNlYzYyOTAiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTkxNjE4OCwiZXhwIjoxNzA5OTI2OTg4fQ.ygWLoSImeFT1ik44fXKKuaYq_bHsXrHBFXJUPJAs69k"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -162,38 +177,41 @@
             "tests": []
         },
         {
-            "_id": "4d9246a8-1cce-44e1-b84e-bf7eb3042840",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "12d355e9-101f-47de-a1f2-2f18616797ab",
+            "_id": "435c4319-42c4-4853-87b0-618dbae4ec07",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
             "name": "ProductTest",
             "url": "product/test",
             "method": "GET",
             "sortNum": 80000,
-            "created": "2024-03-08T13:34:31.633Z",
-            "modified": "2024-03-08T13:34:31.633Z",
+            "created": "2024-03-07T22:41:35.834Z",
+            "modified": "2024-03-09T01:02:12.089Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE",
+                    "isDisabled": true
                 }
             ],
             "params": [],
+            "reqType": "get",
             "tests": []
         },
         {
-            "_id": "bef77a7d-70a0-4794-ac43-c8673e09e900",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "12d355e9-101f-47de-a1f2-2f18616797ab",
+            "_id": "51769561-33b6-46e1-a108-2d9cec521a69",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
             "name": "ProductAdd",
             "url": "product/add",
             "method": "POST",
             "sortNum": 90000,
-            "created": "2024-03-08T13:34:31.634Z",
-            "modified": "2024-03-08T16:43:49.001Z",
+            "created": "2024-03-07T22:41:35.835Z",
+            "modified": "2024-03-09T01:14:01.778Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Q3N2Y2MGRkYTc3ODNlYzYyOTAiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTkxNjE4OCwiZXhwIjoxNzA5OTI2OTg4fQ.ygWLoSImeFT1ik44fXKKuaYq_bHsXrHBFXJUPJAs69k"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViYTRjNTY3NWNiMGU2ZjkzYWIxMGEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTk0MzY3MCwiZXhwIjoxNzA5OTU0NDcwfQ.yQUoJNZ9Zpkki7y6AB6XD5p39IfMuwzGMLPHOhKn7bA",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -203,7 +221,7 @@
                 "form": [
                     {
                         "name": "name",
-                        "value": "Computadora"
+                        "value": "Camisa"
                     },
                     {
                         "name": "description",
@@ -211,11 +229,11 @@
                     },
                     {
                         "name": "category",
-                        "value": "65eb4025c33eea3a720ba28d"
+                        "value": "65ebb7284b6d419da40b6651"
                     },
                     {
                         "name": "stock",
-                        "value": "15"
+                        "value": "0"
                     },
                     {
                         "name": "price",
@@ -227,19 +245,20 @@
             "tests": []
         },
         {
-            "_id": "f702f792-a755-4ce9-81e9-d35045d69b9c",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "12d355e9-101f-47de-a1f2-2f18616797ab",
+            "_id": "b079497a-5d56-45ec-9f39-f773aa3b5181",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
             "name": "ProductUpdate",
-            "url": "product/update/65ead96f6c0699954866286b",
+            "url": "product/update/65ebb30bcbff077952770c49",
             "method": "PUT",
             "sortNum": 100000,
-            "created": "2024-03-08T13:34:31.635Z",
-            "modified": "2024-03-08T13:34:31.635Z",
+            "created": "2024-03-07T22:41:35.836Z",
+            "modified": "2024-03-09T01:14:40.599Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -257,7 +276,7 @@
                     },
                     {
                         "name": "category",
-                        "value": "65eadf5c5674c46ac0fe6230"
+                        "value": "65ebb7284b6d419da40b6651"
                     },
                     {
                         "name": "stock",
@@ -269,41 +288,45 @@
                     }
                 ]
             },
+            "reqType": "put",
             "tests": []
         },
         {
-            "_id": "4d0da3c2-2920-49b4-b59b-b99acc785966",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "12d355e9-101f-47de-a1f2-2f18616797ab",
+            "_id": "8c229812-0fa5-47f3-a62e-3f8d4b5ead6d",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
             "name": "ProductDelete",
-            "url": "product/delete/65eae25873b601a1dd64103c",
+            "url": "product/delete/65ebb30bcbff077952770c49",
             "method": "DELETE",
             "sortNum": 110000,
-            "created": "2024-03-08T13:34:31.636Z",
-            "modified": "2024-03-08T13:34:31.636Z",
+            "created": "2024-03-07T22:41:35.837Z",
+            "modified": "2024-03-09T01:15:00.951Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE",
+                    "isDisabled": true
                 }
             ],
             "params": [],
+            "reqType": "del",
             "tests": []
         },
         {
-            "_id": "ba9307db-980a-4a45-ab42-c758372cd3b6",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "12d355e9-101f-47de-a1f2-2f18616797ab",
+            "_id": "9650801f-8b5e-42f8-924a-7f8c015dd9fd",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
             "name": "ProductList",
             "url": "product/list",
             "method": "GET",
             "sortNum": 120000,
-            "created": "2024-03-08T13:34:31.637Z",
-            "modified": "2024-03-08T16:51:09.707Z",
+            "created": "2024-03-07T22:41:35.838Z",
+            "modified": "2024-03-09T01:02:28.716Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Q3N2Y2MGRkYTc3ODNlYzYyOTAiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTkxNjE4OCwiZXhwIjoxNzA5OTI2OTg4fQ.ygWLoSImeFT1ik44fXKKuaYq_bHsXrHBFXJUPJAs69k"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg5NTYyNSwiZXhwIjoxNzA5OTA2NDI1fQ.fdnaKQwF_XZPMIgXQ0o16dPXI4UWEXO9GOWg7lv5scU",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -311,19 +334,20 @@
             "tests": []
         },
         {
-            "_id": "156e0c41-2f01-41bc-bf28-d5d81404afea",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "12d355e9-101f-47de-a1f2-2f18616797ab",
+            "_id": "e3d34699-983a-46d2-be74-a4ee3dbd836a",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
             "name": "ProductListName",
             "url": "product/listName",
             "method": "POST",
             "sortNum": 130000,
-            "created": "2024-03-08T13:34:31.638Z",
-            "modified": "2024-03-08T16:51:32.081Z",
+            "created": "2024-03-07T22:41:35.839Z",
+            "modified": "2024-03-09T00:31:03.669Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Q3N2Y2MGRkYTc3ODNlYzYyOTAiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTkxNjE4OCwiZXhwIjoxNzA5OTI2OTg4fQ.ygWLoSImeFT1ik44fXKKuaYq_bHsXrHBFXJUPJAs69k"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViYTRjNTY3NWNiMGU2ZjkzYWIxMGEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTk0MzY3MCwiZXhwIjoxNzA5OTU0NDcwfQ.yQUoJNZ9Zpkki7y6AB6XD5p39IfMuwzGMLPHOhKn7bA",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -333,7 +357,7 @@
                 "form": [
                     {
                         "name": "name",
-                        "value": "Tecnologia"
+                        "value": "Com"
                     }
                 ]
             },
@@ -341,34 +365,36 @@
             "tests": []
         },
         {
-            "_id": "e1e16f43-b9d1-44d6-a578-91fe05fd8ad2",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "70003d45-c6af-4914-8762-0be9b125251f",
+            "_id": "aa0d2264-266a-43b2-b6b8-3dadc7a1e516",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "40cedb9a-7f49-44be-87d1-ca1648951503",
             "name": "UserTest",
             "url": "user/test",
             "method": "GET",
             "sortNum": 140000,
-            "created": "2024-03-08T13:34:31.639Z",
-            "modified": "2024-03-08T13:34:31.639Z",
+            "created": "2024-03-07T22:41:35.840Z",
+            "modified": "2024-03-09T01:02:04.962Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE",
+                    "isDisabled": true
                 }
             ],
             "params": [],
+            "reqType": "get",
             "tests": []
         },
         {
-            "_id": "17a9c778-dcd6-4832-83ad-92d756212a57",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "70003d45-c6af-4914-8762-0be9b125251f",
+            "_id": "8986a739-6ce1-4997-beb5-87f68117acca",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "40cedb9a-7f49-44be-87d1-ca1648951503",
             "name": "UserRegister",
             "url": "user/register",
             "method": "POST",
             "sortNum": 150000,
-            "created": "2024-03-08T13:34:31.640Z",
-            "modified": "2024-03-08T13:34:31.640Z",
+            "created": "2024-03-07T22:41:35.841Z",
+            "modified": "2024-03-08T01:04:24.744Z",
             "headers": [],
             "params": [],
             "body": {
@@ -406,18 +432,19 @@
                     }
                 ]
             },
+            "reqType": "post",
             "tests": []
         },
         {
-            "_id": "4261e32b-dd24-49e1-a8ca-ba2ba69bc2db",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "70003d45-c6af-4914-8762-0be9b125251f",
+            "_id": "70384337-d352-4c54-a19e-d058dd9cc3df",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "40cedb9a-7f49-44be-87d1-ca1648951503",
             "name": "UserLogin",
             "url": "user/login",
             "method": "POST",
             "sortNum": 160000,
-            "created": "2024-03-08T13:34:31.641Z",
-            "modified": "2024-03-08T14:37:54.147Z",
+            "created": "2024-03-07T22:41:35.842Z",
+            "modified": "2024-03-08T07:28:10.798Z",
             "headers": [],
             "params": [],
             "body": {
@@ -438,15 +465,15 @@
             "tests": []
         },
         {
-            "_id": "e305bba2-0f6c-4f09-895a-ce14956dc8e6",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "70003d45-c6af-4914-8762-0be9b125251f",
+            "_id": "07847520-dcfc-490d-9d49-8cf2abacaac8",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "40cedb9a-7f49-44be-87d1-ca1648951503",
             "name": "UserUpdate",
             "url": "user/update/65ea694fd805f825927cde90",
             "method": "PUT",
             "sortNum": 180000,
-            "created": "2024-03-08T13:34:31.642Z",
-            "modified": "2024-03-08T13:34:31.642Z",
+            "created": "2024-03-07T22:41:35.843Z",
+            "modified": "2024-03-08T06:07:11.681Z",
             "headers": [
                 {
                     "name": "token",
@@ -490,18 +517,19 @@
                     }
                 ]
             },
+            "reqType": "put",
             "tests": []
         },
         {
-            "_id": "66e0c0e8-944f-491d-a9b9-0013a2f6f8b1",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "70003d45-c6af-4914-8762-0be9b125251f",
+            "_id": "4db9d6e4-45a9-4396-af2f-04ff1b0bd6a7",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "40cedb9a-7f49-44be-87d1-ca1648951503",
             "name": "UserDelete",
             "url": "user/delete/65eabc02a25da7359f28580c",
             "method": "DELETE",
             "sortNum": 190000,
-            "created": "2024-03-08T13:34:31.643Z",
-            "modified": "2024-03-08T13:34:31.643Z",
+            "created": "2024-03-07T22:41:35.844Z",
+            "modified": "2024-03-08T07:20:29.466Z",
             "headers": [
                 {
                     "name": "token",
@@ -519,22 +547,24 @@
                     }
                 ]
             },
+            "reqType": "del",
             "tests": []
         },
         {
-            "_id": "956ddf11-072d-437c-a31d-365b15e2ee27",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "70003d45-c6af-4914-8762-0be9b125251f",
+            "_id": "bf8d1c5e-2e2b-417c-a71e-757cd0d0c72e",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "40cedb9a-7f49-44be-87d1-ca1648951503",
             "name": "UserEditPassword",
-            "url": "user/editPassword/65eac4f0f7e0fa10a82f9b71",
+            "url": "user/editPassword/65eba4c5675cb0e6f93ab10a",
             "method": "PUT",
             "sortNum": 200000,
-            "created": "2024-03-08T13:34:31.644Z",
-            "modified": "2024-03-08T13:34:31.644Z",
+            "created": "2024-03-08T07:22:47.072Z",
+            "modified": "2024-03-09T01:00:31.382Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg4NDY2NSwiZXhwIjoxNzA5ODk1NDY1fQ._Y7-scc41alOacpupZMF1ibpkwccyHGaLAc_8MeFVyE"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViYTRjNTY3NWNiMGU2ZjkzYWIxMGEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTk0NTkwMywiZXhwIjoxNzA5OTU2NzAzfQ.5utbM-SK3zDMIX5vMyjOF31rBBxFtHSMCtGiqd0SX8w",
+                    "isDisabled": true
                 }
             ],
             "params": [],
@@ -552,30 +582,95 @@
                     }
                 ]
             },
+            "reqType": "put",
             "tests": []
         },
         {
-            "_id": "85be0dcd-a317-400b-9dd3-89d44b2c946f",
-            "colId": "085e79ec-e23e-4396-bab9-bdde41578516",
-            "containerId": "12d355e9-101f-47de-a1f2-2f18616797ab",
+            "_id": "11d676dc-8ae3-415c-baad-c9457de54c64",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
             "name": "ProductSoldOutlist",
             "url": "product/soldout",
             "method": "POST",
             "sortNum": 210000,
-            "created": "2024-03-08T13:34:31.645Z",
-            "modified": "2024-03-08T16:51:00.279Z",
+            "created": "2024-03-08T10:16:55.550Z",
+            "modified": "2024-03-09T01:04:29.135Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViM2Q3N2Y2MGRkYTc3ODNlYzYyOTAiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTkxNjE4OCwiZXhwIjoxNzA5OTI2OTg4fQ.ygWLoSImeFT1ik44fXKKuaYq_bHsXrHBFXJUPJAs69k"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhYzRmMGY3ZTBmYTEwYTgyZjliNzEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTg5NTYyNSwiZXhwIjoxNzA5OTA2NDI1fQ.fdnaKQwF_XZPMIgXQ0o16dPXI4UWEXO9GOWg7lv5scU",
+                    "isDisabled": true
                 }
             ],
             "params": [],
             "reqType": "post",
             "tests": []
+        },
+        {
+            "_id": "9fea5164-38e6-48d6-870d-058f8d74dd50",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
+            "name": "ProductListCategory",
+            "url": "product/listCategory",
+            "method": "GET",
+            "sortNum": 230000,
+            "created": "2024-03-09T00:20:47.253Z",
+            "modified": "2024-03-09T01:05:30.078Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViYTRjNTY3NWNiMGU2ZjkzYWIxMGEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTk0MzY3MCwiZXhwIjoxNzA5OTU0NDcwfQ.yQUoJNZ9Zpkki7y6AB6XD5p39IfMuwzGMLPHOhKn7bA",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "ae8a72f0-5ce2-4a04-9a48-75fc222ef872",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "9e01bc06-699f-4f20-b039-2ec26728d37e",
+            "name": "ProductListByCategory",
+            "url": "product/listbyCategory",
+            "method": "POST",
+            "sortNum": 240000,
+            "created": "2024-03-09T00:40:21.904Z",
+            "modified": "2024-03-09T00:53:46.818Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "category",
+                        "value": "65ebb24c868080287dae7222"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "fc131005-3cb9-4a29-b45b-01aba7e0b125",
+            "colId": "f817f90b-5b71-4413-a4a0-5ff8d5d64799",
+            "containerId": "01c1d305-55ca-42f6-b801-87ee38516adf",
+            "name": "CartAdd",
+            "url": "",
+            "method": "GET",
+            "sortNum": 250000,
+            "created": "2024-03-09T04:19:24.072Z",
+            "modified": "2024-03-09T04:19:24.072Z",
+            "headers": []
         }
     ],
     "settings": {
+        "headers": [
+            {
+                "name": "token",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWViYTRjNTY3NWNiMGU2ZjkzYWIxMGEiLCJ1c2VybmFtZSI6ImRlZmF1bHQiLCJuYW1lIjoiRGVmYXVsdCIsImVtYWlsIjoiZGVmYXVsdEBnbWFpbC5jb20iLCJyb2wiOiJBRE1JTiIsImlhdCI6MTcwOTk0NTkwMywiZXhwIjoxNzA5OTU2NzAzfQ.5utbM-SK3zDMIX5vMyjOF31rBBxFtHSMCtGiqd0SX8w"
+            }
+        ],
         "options": {
             "baseUrl": "localhost:2656/"
         }

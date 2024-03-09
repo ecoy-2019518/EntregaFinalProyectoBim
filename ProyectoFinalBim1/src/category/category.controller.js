@@ -30,6 +30,8 @@ export const defaultCategory = async () => {
 export const add = async (req, res) => {
     try {
         let data = req.body
+        let categoryExist = await Category.findOne({ name: data.name });
+        if (categoryExist) return res.status(400).send({ message: 'Category with this name already exists' })
         let category = new Category(data)
         await category.save()
         return res.send({ message: 'Category saved succesfully' })
@@ -43,6 +45,8 @@ export const update = async (req, res) => {
     try {
         let { id } = req.params
         let data = req.body
+        let categoryExist = await Category.findOne({ name: data.name });
+        if (categoryExist) return res.status(400).send({ message: 'Category with this name already exists' })
         let update = checkUpdate(data, id)
         if (!update) return res.status(400).send({ message: 'Have submitted some data that cannot be updated or missing data' })
         let updateCategory = await Category.findOneAndUpdate(

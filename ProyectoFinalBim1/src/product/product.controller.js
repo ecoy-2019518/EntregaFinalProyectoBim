@@ -14,6 +14,8 @@ export const add = async (req, res) => {
         let data = req.body
         let category = await Category.findOne({ _id: data.category })
         if (!category) return res.status(404).send({ message: 'Category not found' })
+        let productExist = await Product.findOne({ name: data.name });
+        if (productExist) return res.status(400).send({ message: 'Product with this name already exists' })
         let product = new Product(data)
         await product.save()
         return res.send({ message: 'Product saved succesfully' })
@@ -70,9 +72,9 @@ export const list = async (req, res) => {
 export const listName = async (req, res) => {
     try {
         let { name } = req.body
-        let product = await Product.findOne({ name: name })
-        if (!product) return res.status(404).send({ message: 'No product has this name' })
-        return res.send({ message: 'Product found', product })
+        let products = await Product.find({ name: {$regex: new RegExp(name, 'i')} }).populate({path: 'category', select: '-_id'})
+        if (products.length === 0) return res.status(404).send({ message: 'No product has this name' })
+        return res.send({ message: 'Product found', products })
     } catch (err) {
         console.error(err)
         return res.status(500).send({ message: 'Error when listing by name' })
@@ -81,7 +83,7 @@ export const listName = async (req, res) => {
 
 export const soldout = async (req, res) => {
     try {
-        let product = await Product.find({ stock: 0 }).populate('category')
+        let product = await Product.find({ stock: 0 }).populate({path: 'category', select: '-_id'})
         if (product.length === 0) return res.status(400).send({ message: 'no exhausted products were found' })
         return res.send({ product })
     } catch (err) {
@@ -89,3 +91,28 @@ export const soldout = async (req, res) => {
         return res.status(500).send({ message: 'Error when listing by soldOut' })
     }
 }
+
+export const listCategory = async (req, res) => {
+    try {
+        let category = await Category.find()
+        if (category.length === 0) return res.status(400).send({ message: 'Category not found' })
+        return res.send({ category })
+    } catch (err) {
+        console.error(err)
+        return res.status(500).send({ message: 'Category not found' })
+    }
+}
+
+export const listbyCategory = async (req, res) => {
+    try {
+        let { category } = req.body
+        let product = await Product.find({ category: category }).populate({path: 'category', select: '-_id'})
+        if (product.length === 0) return res.status(400).send({ message: 'product not found in this category' })
+        return res.send({ product })
+    } catch (err) {
+        console.error(err)
+        return res.status(500).send({ message: 'Error when listing by category' })
+    }
+
+}
+

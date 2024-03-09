@@ -1,6 +1,6 @@
 import {Schema, model} from 'mongoose'
 
-const shoppingCartSchema= Schema({
+const CartSchema= Schema({
     user:{
         type: Schema.Types.ObjectId,
         ref: 'user',
@@ -26,4 +26,4 @@ const shoppingCartSchema= Schema({
     versionKey: false
 })
 
-export default model('shoppingCart', shoppingCartSchema)
+export default model('cart', CartSchema)
